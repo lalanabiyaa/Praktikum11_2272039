@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: sans-serif;
+  overflow: hidden;
+  text-align: center;
+}
+
+#gameArea {
+  width: 100vw;
+  height: 90vh;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.bug {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-image: url("./Nami_Onigashima.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#gameOverScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  z-index: 1000;
+}
+
+#info {
+  height: 10vh;
+  font-size: 16px;
+  padding-top: 5px;
+}
